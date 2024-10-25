@@ -1,5 +1,8 @@
 import { integer, sqliteTable, text } from "drizzle-orm/sqlite-core";
-export const table = sqliteTable("students", {
-  id: integer().primaryKey({ autoIncrement: true }),
-  name: text(),
+export const todosTable = sqliteTable("todos", {
+  id: text().primaryKey(),
+  title: text(),
+  status: text(),
+  createdAt: integer(),
+  updatedAt: integer(),
 });

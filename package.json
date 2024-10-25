@@ -10,11 +10,13 @@
     "drizzle-orm": "^0.35.3",
     "hono": "^4.6.6",
     "keccak": "^3.0.4",
-    "prettierrc": "^0.0.0-5"
+    "prettierrc": "^0.0.0-5",
+    "uuid": "^10.0.0"
   },
   "devDependencies": {
     "@types/better-sqlite3": "^7.6.11",
     "@types/bun": "latest",
+    "@types/uuid": "^10.0.0",
     "drizzle-kit": "^0.26.2",
     "tsx": "^4.19.1"
   }
